@@ -36,7 +36,7 @@ module_exit(taskinfo_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Module for displaying a task's information using /proc file system.");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("orange");
 
 static ssize_t proc_read(struct file *file, char __user *usr_buf, size_t count, loff_t *pos) {
     char buffer[BUFFER_SIZE];
