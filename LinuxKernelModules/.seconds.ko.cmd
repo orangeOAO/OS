@@ -1,0 +1,1 @@
+cmd_/home/orange/Desktop/OS/LinuxKernelModules/seconds.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/orange/Desktop/OS/LinuxKernelModules/seconds.ko /home/orange/Desktop/OS/LinuxKernelModules/seconds.o /home/orange/Desktop/OS/LinuxKernelModules/seconds.mod.o;  true
