@@ -1,1 +1,0 @@
-cmd_/home/orange/Desktop/OS/LinuxKernelModules/jiffies.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/orange/Desktop/OS/LinuxKernelModules/jiffies.ko /home/orange/Desktop/OS/LinuxKernelModules/jiffies.o /home/orange/Desktop/OS/LinuxKernelModules/jiffies.mod.o;  true

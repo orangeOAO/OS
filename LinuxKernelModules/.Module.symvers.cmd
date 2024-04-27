@@ -1,1 +1,0 @@
-cmd_/home/orange/Desktop/OS/LinuxKernelModules/Module.symvers := sed 's/\.ko$$/\.o/' /home/orange/Desktop/OS/LinuxKernelModules/modules.order | scripts/mod/modpost -m -a  -o /home/orange/Desktop/OS/LinuxKernelModules/Module.symvers -e -i Module.symvers   -T -
