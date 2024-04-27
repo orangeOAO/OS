@@ -1,0 +1,1 @@
+cmd_/home/orange/Desktop/OS/taskinfo.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/orange/Desktop/OS/taskinfo.ko /home/orange/Desktop/OS/taskinfo.o /home/orange/Desktop/OS/taskinfo.mod.o;  true
