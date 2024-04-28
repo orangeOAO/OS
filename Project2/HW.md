@@ -20,5 +20,4 @@ int fibonacci(int n) {
 
 B、C
 
-## 4-16
 
